@@ -1,0 +1,32 @@
+{
+  "name": "tsdash-monorepo",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.0.18",
+  "engines": {
+    "bun": ">=1.0.18"
+  },
+  "workspaces": [
+    "docs/*",
+    "lib/*",
+    "test/*"
+  ],
+  "scripts": {
+    "check": "biome check",
+    "check:apply": "biome check --apply",
+    "lint": "biome lint",
+    "lint:apply": "biome lint --apply",
+    "format": "biome format",
+    "format:write": "biome format --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
+    "@changesets/cli": "^2.27.1",
+    "@svitejs/changesets-changelog-github-compact": "^1.1.0",
+    "bun-types": "^1.0.18-1",
+    "typedoc": "^0.25.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

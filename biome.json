@@ -1,0 +1,19 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
+  "linter": {
+    "rules": {
+      "nursery": {
+        "noUnusedImports": "error",
+        "useGroupedTypeImport": "error"
+      },
+      "style": {
+        "noParameterAssign": "off",
+        "useShorthandAssign": "error",
+        "useShorthandArrayType": "error"
+      },
+      "suspicious": {
+        "noAssignInExpressions": "off"
+      }
+    }
+  }
+}
