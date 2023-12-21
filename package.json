@@ -8,8 +8,8 @@
   },
   "workspaces": [
     "docs/*",
-    "lib/*",
-    "test/*"
+    "types/*",
+    "utils/*"
   ],
   "scripts": {
     "check": "biome check",
@@ -23,8 +23,11 @@
     "@biomejs/biome": "^1.4.1",
     "@changesets/cli": "^2.27.1",
     "@svitejs/changesets-changelog-github-compact": "^1.1.0",
+    "@vitest/coverage-v8": "^1.1.0",
+    "@vitest/ui": "^1.1.0",
     "bun-types": "^1.0.18-1",
-    "typedoc": "^0.25.4"
+    "typedoc": "^0.25.4",
+    "vitest": "^1.1.0"
   },
   "peerDependencies": {
     "typescript": "^5.3.3"

@@ -1,0 +1,66 @@
+{
+  "name": "@tsdash/utils",
+  "version": "0.0.1",
+  "description": "A TypeScript utility library",
+  "type": "module",
+  "engines": {
+    "bun": ">=1.0.18",
+    "node": ">=19.0.0"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "bun run test && bun run build && cp '../README.md' './README.md' && cp '../LICENSE' './LICENSE'",
+    "postpublish": "rm './README.md' && rm './LICENSE'",
+    "test": "cross-env NODE_OPTIONS='--experimental-global-webcrypto' vitest run --coverage",
+    "test:dev": "vitest --ui"
+  },
+  "homepage": "https://tsdash.io",
+  "bugs": {
+    "url": "https://github.com/mhodge11/tsdash/issues",
+    "email": "bugs@tsdash.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhodge11/tsdash.git",
+    "directory": "lib"
+  },
+  "keywords": [
+    "lodash",
+    "moderndash",
+    "utility",
+    "helper",
+    "underscore",
+    "esm",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "browserslist": [
+    ">2% and not dead"
+  ],
+  "license": "MIT",
+  "author": "Micah Hodge <micahhodgeutk@icloud.com> (https://github.com/mhodge11)",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "hotscript": "^1.0.13"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "tsup": "^8.0.1"
+  }
+}

@@ -4,5 +4,7 @@
 
   "editor.defaultFormatter": "biomejs.biome",
 
-  "explorer.sortOrderLexicographicOptions": "lower"
+  "explorer.sortOrderLexicographicOptions": "lower",
+
+  "vitest.commandLine": "bunx vitest --root package"
 }

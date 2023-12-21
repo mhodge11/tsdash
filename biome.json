@@ -1,7 +1,13 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
+  "formatter": {
+    "ignore": ["**/coverage/**/*", "**/dist/**/*", "**/node_modules/**/*"]
+  },
   "linter": {
     "rules": {
+      "complexity": {
+        "noBannedTypes": "off"
+      },
       "nursery": {
         "noUnusedImports": "error",
         "useGroupedTypeImport": "error"
@@ -12,8 +18,10 @@
         "useShorthandArrayType": "error"
       },
       "suspicious": {
-        "noAssignInExpressions": "off"
+        "noAssignInExpressions": "off",
+        "noExplicitAny": "off"
       }
-    }
+    },
+    "ignore": ["**/coverage/**/*", "**/dist/**/*", "**/node_modules/**/*"]
   }
 }
