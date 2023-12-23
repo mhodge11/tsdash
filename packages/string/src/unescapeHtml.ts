@@ -3,7 +3,7 @@
  * in a string to their corresponding characters.
  *
  * @example
- * ```typescript
+ * ```ts
  * unescapeHtml('fred, barney, &amp; pebbles')
  * // => 'fred, barney, & pebbles'
  * ```

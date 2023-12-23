@@ -5,7 +5,6 @@ source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/setup.sh"
 
 run() {
   cd "$GIT_ROOT"/packages/"$1" || exit
-  info_msg "Testing $1"
   bun run test
 }
 

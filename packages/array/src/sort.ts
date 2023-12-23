@@ -2,7 +2,7 @@
  * Creates new array sorted in ascending/descending order with single or multiple criteria.
  *
  * @example
- * ```typescript
+ * ```ts
  * sort([1, 2, 3, 4], { order: 'desc' })
  * // => [4, 3, 2, 1]
  *

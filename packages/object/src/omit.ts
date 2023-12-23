@@ -7,7 +7,7 @@ import { pick } from "./pick.ts";
  * Omit specified keys from an object
  *
  * @example
- * ```typescript
+ * ```ts
  * const obj = {a: 1, b: 2, c: 3};
  * omit(obj, ['a', 'b']);
  * // => {c: 3}

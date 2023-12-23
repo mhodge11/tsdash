@@ -7,7 +7,7 @@ import type { GenericFunction } from "./types/GenericFunction.ts";
  * This function can be used as a decorator with {@link decMinCalls}.
  *
  * @example
- * ```typescript
+ * ```ts
  * const caution = () => console.log("Caution!");
  * const limitedCaution = minCalls(caution, 2);
  *

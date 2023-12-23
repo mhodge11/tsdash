@@ -2,7 +2,7 @@
  * Rounds a number to the given precision.
  *
  * @example
- * ```typescript
+ * ```ts
  * round(1.23456, 2); // => 1.23
  * round(1.235, 1); // => 1.2
  * round(1234.56); // => 1234.56

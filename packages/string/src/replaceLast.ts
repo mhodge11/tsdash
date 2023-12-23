@@ -2,7 +2,7 @@
  * Replaces the last occurrence of a string.
  *
  * @example
- * ```typescript
+ * ```ts
  * replaceLast("Foo Bar Bar", "Bar", "Boo");
  * // => "Foo Bar Boo"
  * ```

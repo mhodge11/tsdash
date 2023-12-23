@@ -7,7 +7,7 @@ import { randomInt } from "./randomInt.ts";
  * It uses `crypto.getRandomValues` to generate the random string.
  *
  * @example
- * ```typescript
+ * ```ts
  * randomString(8);
  * // => "JWw1p6rD"
  *

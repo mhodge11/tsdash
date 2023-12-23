@@ -3,7 +3,7 @@
  * If start is larger than end, the array is generated in reverse
  *
  * @example
- * ```typescript
+ * ```ts
  * for (const num of range(1, 5)) {
  *   console.log(num);
  * }

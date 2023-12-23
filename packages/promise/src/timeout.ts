@@ -2,7 +2,7 @@
  * Returns a new promise that will reject with an error after a specified timeout.
  *
  * @example
- * ```typescript
+ * ```ts
  * try {
  *   await timeout(fetch('https://example.com'), 1000);
  * } catch (error) {

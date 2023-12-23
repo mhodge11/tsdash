@@ -6,7 +6,7 @@
  * You can validate if a value is a plain object with {@link isPlainObject}.
  *
  * @example
- * ```typescript
+ * ```ts
  * let obj: PlainObject = { a: 1, b: 2 };
  *
  * obj = [1, 2, 3];

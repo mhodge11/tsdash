@@ -4,7 +4,7 @@
  * This is useful for handling errors in async functions without try/catch blocks.
  *
  * @example
- * ```typescript
+ * ```ts
  * const [data, error] = await tryCatch(fetch('https://example.com/api'));
  * if (error)
  *   console.error(`Error: ${error.message}`);

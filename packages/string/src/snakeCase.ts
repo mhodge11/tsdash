@@ -5,7 +5,7 @@ import { splitWords } from "./splitWords.ts";
  * Converts a string to snake_case.
  *
  * @example
- * ```typescript
+ * ```ts
  * snakeCase('Foo Bar')
  * // => 'foo_bar'
  * snakeCase('fooBar')

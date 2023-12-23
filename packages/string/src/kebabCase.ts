@@ -5,7 +5,7 @@ import { splitWords } from "./splitWords.ts";
  * Converts a string to kebab-case.
  *
  * @example
- * ```typescript
+ * ```ts
  * kebabCase('Foo Bar')
  * // => 'foo-bar'
  * kebabCase('fooBar')

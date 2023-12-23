@@ -2,7 +2,7 @@
  * Creates an object with counts of occurrences of items in the array.
  *
  * @example
- * ```typescript
+ * ```ts
  * const users = [
  *   { 'user': 'barney', 'active': true, age: 36 },
  *   { 'user': 'betty', 'active': false, age: 36 },

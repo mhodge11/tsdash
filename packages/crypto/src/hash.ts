@@ -8,7 +8,7 @@ import type { Jsonifiable } from "@tsdash/types";
  * *Note: If you need a secure hash use a specialized library like [crypto-js](https://www.npmjs.com/package/crypto-js) instead.*
  *
  * @example
- * ```typescript
+ * ```ts
  * // Hash a string using the default algorithm (SHA-256)
  * await hash('hello world');
  * // => "b94d27b9934d3e08a52e52d7da7dabfac484efe37a53..."

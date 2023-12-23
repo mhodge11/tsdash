@@ -4,7 +4,7 @@
  * Supports: strings, arrays, objects, maps, sets, typed arrays.
  *
  * @example
- * ```typescript
+ * ```ts
  * isEmpty(null)
  * // => true
  *

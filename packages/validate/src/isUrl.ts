@@ -2,7 +2,7 @@
  * Checks if given string is a valid URL
  *
  * @example
- * ```typescript
+ * ```ts
  * isUrl('https://google.com')
  * // => true
  * isUrl('google.com')

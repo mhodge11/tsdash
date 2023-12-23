@@ -16,7 +16,7 @@ import type { GenericFunction } from "./types/GenericFunction.ts";
  * This function can be used as a decorator with {@link decMemoize}.
  *
  * @example
- * ```typescript
+ * ```ts
  * function fibonacci(n: number) {
  *   if (n <= 1) return n;
  *   return fibonacci(n - 1) + fibonacci(n - 2);

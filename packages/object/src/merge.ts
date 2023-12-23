@@ -5,7 +5,7 @@ import { type PlainObject, isPlainObject } from "@tsdash/validate";
  * This function combines two or more objects into a single new object. Arrays and other types are overwritten.
  *
  * @example
- * ```typescript
+ * ```ts
  * // ---- Nested objects are merged ----
  * merge({ a: 1 }, { b: 2 }, { c: 3, d: { e: 4 } })
  * // => { a: 1, b: 2, c: 3, d: { e: 4 } }

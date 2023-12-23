@@ -4,7 +4,7 @@ import type { PlainObject } from "@tsdash/validate";
  * Creates an object composed of the picked `object` properties.
  *
  * @example
- * ```typescript
+ * ```ts
  * const object = { 'a': 1, 'b': '2', 'c': 3 }
  *
  * pick(object, ['a', 'c'])

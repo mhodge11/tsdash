@@ -4,7 +4,7 @@ import type { GenericFunction } from "@tsdash/function";
  * Transforms a function into a decorator function.
  *
  * @example
- * ```typescript
+ * ```ts
  * function log(func: Function, message: string) {
  *   return function (...args: unknown[]) {
  *     console.log(message);

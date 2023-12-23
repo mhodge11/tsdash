@@ -4,7 +4,7 @@
  * It uses `crypto.getRandomValues` to generate the random number.
  *
  * @example
- * ```typescript
+ * ```ts
  * randomFloat(1, 10)
  * // => 1.123456789
  * ```

@@ -5,9 +5,10 @@ source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/setup.sh"
 
 run() {
   cd "$GIT_ROOT"/packages/"$1" || exit
-  info_msg "Building $1"
   bun run build
 }
+
+bun i
 
 run "setup"
 run "types"

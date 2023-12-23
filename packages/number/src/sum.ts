@@ -6,7 +6,7 @@ import type { Call, Tuples } from "@tsdash/types";
  * Returns `NaN` if the input array is empty.
  *
  * @example
- * ```typescript
+ * ```ts
  * sum([1, 2, 3, 4, 5]) // => 15
  * ```
  *

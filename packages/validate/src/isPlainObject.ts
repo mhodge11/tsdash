@@ -6,7 +6,7 @@ import type { PlainObject } from "./types/index.ts";
  * Refers to the {@link PlainObject} type.
  *
  * @example
- * ```typescript
+ * ```ts
  * isPlainObject({}) // => true
  * isPlainObject({ a: 1 }) // => true
  * isPlainObject(null) // => false

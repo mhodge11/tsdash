@@ -5,7 +5,7 @@ import { type PlainObject, isPlainObject } from "@tsdash/validate";
  * Sets the value at path of object. If a portion of path doesn’t exist, it’s created.
  *
  * @example
- * ```typescript
+ * ```ts
  * const obj = { a: { b: 2 } };
  * set(obj, 'a.c', 1);
  * // => { a: { b: 2, c: 1 } }

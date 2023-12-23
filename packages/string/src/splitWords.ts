@@ -2,7 +2,7 @@
  * Split a string into words. Can deal with camelCase, PascalCase & snake_case.
  *
  * @example
- * ```typescript
+ * ```ts
  * splitWords('camelCase')
  * // => ['camel', 'Case']
  *

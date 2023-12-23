@@ -5,7 +5,7 @@ import { splitWords } from "./splitWords.ts";
  * Converts `string` to camelCase.
  *
  * @example
- * ```typescript
+ * ```ts
  * camelCase('Foo Bar')
  * // => 'fooBar'
  * camelCase('--foo-bar--')

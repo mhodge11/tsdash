@@ -12,7 +12,7 @@ import { unique } from "./unique.ts";
  * Optionally, use a compare function for element comparison (default is `===`).
  *
  * @example
- * ```typescript
+ * ```ts
  * intersection([2, 1], [2, 3], [6, 2])
  * // => [2]
  *

@@ -14,7 +14,7 @@ type rawArgs = typeof rawArgs;
  * and checking for undefined-but-present values is likely an anti-pattern.
  *
  * @example
- * ```typescript
+ * ```ts
  * const error: Jsonifiable = {
  *     map: new Map([['a', 1]]),
  * };

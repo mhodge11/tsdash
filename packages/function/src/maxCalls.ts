@@ -8,7 +8,7 @@ import type { GenericFunction } from "./types/GenericFunction.ts";
  * This function can be used as a decorator with {@link decMaxCalls}.
  *
  * @example
- * ```typescript
+ * ```ts
  * let count = 0;
  * const addCount = () => ++count;
  *

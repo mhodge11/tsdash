@@ -7,7 +7,7 @@ import type { GenericFunction } from "./types/GenericFunction.ts";
  * This function can be used as a decorator with {@link decThrottle}.
  *
  * @example
- * ```typescript
+ * ```ts
  * const throttled = throttle(() => console.log("Throttled!"), 1000);
  *
  * throttled();

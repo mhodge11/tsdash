@@ -2,7 +2,7 @@
  * This type builds a generic function.
  *
  * @example
- * ```typescript
+ * ```ts
  * function foo<
  *   F extends GenericFunction<F>
  * >(fn: F): F & { bar: () => void; } {

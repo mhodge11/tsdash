@@ -1,5 +1,9 @@
 {
-	"$schema": "https://typedoc.org/schema.json",
-	"excludeInternal": true,
-	"exclude": ["**/__test__/**/*", "**/node_modules/**/*"]
+  "entryPoints": ["packages/*"],
+  "entryPointStrategy": "packages",
+  "includeVersion": false,
+  "plugin": ["typedoc-plugin-markdown", "typedoc-plugin-mdn-links"],
+  "out": "./docs",
+  "excludeReferences": true,
+  "logLevel": "Verbose"
 }

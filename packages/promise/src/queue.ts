@@ -11,7 +11,7 @@
  * - `done` - Returns a promise resolving when all added tasks are finished. Individual rejections don't affect the done() promise.
  *
  * @example
- * ```typescript
+ * ```ts
  * // Create a queue that can run 3 tasks concurrently
  * const queue = new Queue(3);
  *

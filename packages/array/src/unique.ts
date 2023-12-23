@@ -4,7 +4,7 @@
  * A compare function is optional (default is `===`).
  *
  * @example
- * ```typescript
+ * ```ts
  * unique([2, 1, 2])
  * // => [2, 1]
  *

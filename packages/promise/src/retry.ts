@@ -7,7 +7,7 @@ import { sleep } from "./sleep.ts";
  * Default backoff: `2^retries * 100ms` (100, 200, 400, 800, 1600, 3200, ...)
  *
  * @example
- * ```typescript
+ * ```ts
  * await retry(() => fetch('https://example.com'));
  *
  * // ---- Advanced example ----

@@ -13,7 +13,7 @@
   "engineStrict": true,
   "scripts": {
     "build": "bin/build-all.sh",
-    "build:docs": "bin/build-docs.sh",
+    "build:docs": "typedoc",
     "check": "biome check ./packages",
     "check:apply": "biome check ./packages --apply",
     "format": "biome format ./packages",
@@ -47,6 +47,7 @@
     "tsup": "^8.0.1",
     "typedoc": "^0.25.4",
     "typedoc-plugin-markdown": "^3.17.1",
+    "typedoc-plugin-mdn-links": "^3.1.8",
     "vitest": "^1.1.0"
   },
   "peerDependencies": {

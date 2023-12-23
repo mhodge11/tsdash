@@ -67,10 +67,8 @@ export type {
 	Objects as O,
 	// strings
 	Strings,
-	Strings as S,
 	// tuples
 	Tuples,
-	Tuples as T,
 	// unions
 	Unions,
 	Unions as U,

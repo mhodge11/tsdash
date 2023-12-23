@@ -3,7 +3,7 @@
  * It is composed of a timestamp and a payload.
  *
  * @example
- * ```typescript
+ * ```ts
  * const ksuidFromSync = KSUID.random();
  * const idFromSync = ksuidFromSync.string;
  *

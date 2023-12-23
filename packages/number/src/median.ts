@@ -4,7 +4,7 @@
  * Returns `NaN` if the input array is empty.
  *
  * @example
- * ```typescript
+ * ```ts
  * median([1, 2, 3, 4, 5]) // => 3
  * median([1, 2, 3, 4, 5, 6]) // => 3.5
  * ```

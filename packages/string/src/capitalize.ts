@@ -2,7 +2,7 @@
  * Converts the first character of a string to upper case and the remaining to lower case.
  *
  * @example
- * ```typescript
+ * ```ts
  * capitalize('FRED')
  * // => 'Fred'
  * ```

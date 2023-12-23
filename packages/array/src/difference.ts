@@ -10,7 +10,7 @@ import { flat } from "./flat.ts";
  * Optionally, use a compare function to determine the comparison of elements (default is `===`).
  *
  * @example
- * ```typescript
+ * ```ts
  * difference([2, 1], [2, 3], [6])
  * // => [1]
  *

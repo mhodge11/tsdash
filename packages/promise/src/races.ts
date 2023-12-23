@@ -3,7 +3,7 @@
  * but allows to specify how many promises to wait for.
  *
  * @example
- * ```typescript
+ * ```ts
  * const prom1 = Promise.resolve(1);
  * const prom2 = new Promise(resolve => setTimeout(resolve, 100, 2));
  * const prom3 = Promise.resolve(3);

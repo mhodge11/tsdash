@@ -2,7 +2,7 @@
  * Moves an element within an array.
  *
  * @example
- * ```typescript
+ * ```ts
  * move([1, 2, 3, 4, 5], 0, 2);
  * // => [2, 3, 1, 4, 5]
  * ```

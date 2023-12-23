@@ -3,7 +3,7 @@
  * Elements are taken until `predicate` returns falsy.
  *
  * @example
- * ```typescript
+ * ```ts
  * const users = [
  *   { 'user': 'barney',  'active': true },
  *   { 'user': 'fred',    'active': true },

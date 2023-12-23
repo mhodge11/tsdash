@@ -10,7 +10,7 @@ import { randomInt } from "./randomInt.ts";
  * It uses `crypto.getRandomValues` to get the random element.
  *
  * @example
- * ```typescript
+ * ```ts
  * randomElement([1, 2, 3, 4])
  * // => 2
  *

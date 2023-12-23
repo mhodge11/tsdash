@@ -9,7 +9,7 @@ import { isPlainObject } from "./isPlainObject.ts";
  * Supports: primitives, arrays, objects, dates, regexes, maps, sets, buffers, typed arrays
  *
  * @example
- * ```typescript
+ * ```ts
  * const object = { a: { b: 2 } };
  * const other = { a: { b: 2 } };
  *

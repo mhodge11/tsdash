@@ -3,7 +3,7 @@
  * each invocation.
  *
  * @example
- * ```typescript
+ * ```ts
  * times(index => console.log("Run", index), 3)
  * // => "Run 0" | "Run 1" | "Run 2"
  * times(Math.random, 3)

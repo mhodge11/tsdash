@@ -2,7 +2,7 @@
  * Creates a new array of shuffled values, using the Fisher-Yates-Durstenfeld Shuffle algorithm.
  *
  * @example
- * ```typescript
+ * ```ts
  * shuffle([1, 2, 3, 4])
  * // => [4, 1, 3, 2]
  * ```

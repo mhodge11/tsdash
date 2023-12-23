@@ -22,7 +22,7 @@ export namespace Tuples {
 	 * This type builds an tuple with a minimum length.
 	 *
 	 * @example
-	 * ```typescript
+	 * ```ts
 	 * let arr: Tuples.MinLength<number, 3> = [1, 2, 3];
 	 * // => OK
 	 *

@@ -2,7 +2,7 @@
  * Converts the characters `&`, `<`, `>`, `"` and `'` in a string to their corresponding HTML entities.
  *
  * @example
- * ```typescript
+ * ```ts
  * escapeHtml('fred, barney, & pebbles')
  * // => 'fred, barney, &amp; pebbles'
  * ```

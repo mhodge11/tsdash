@@ -6,7 +6,7 @@
  * [combining diacritical marks](https://en.wikipedia.org/wiki/Combining_Diacritical_Marks).
  *
  * @example
- * ```typescript
+ * ```ts
  * deburr('déjà vu')
  * // => 'deja vu'
  * ```

@@ -4,7 +4,7 @@
  * *Use the native [trimEnd](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd) method if you want to trim whitespace.*
  *
  * @example
- * ```typescript
+ * ```ts
  * trimEnd('abc$$$', '$') // => 'abc'
  * trimEnd('abc_!!_', '_!') // => 'abc'
  * ```

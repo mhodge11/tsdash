@@ -3,7 +3,7 @@
  * `?`, `(`, `)`, `[`, `]`, `{`, `}`, and `|` in a string.
  *
  * @example
- * ```typescript
+ * ```ts
  * escapeRegExp('[moderndash](https://moderndash.io/)')
  * // => '\[moderndash\]\(https://moderndash\.io/\)'
  * ```

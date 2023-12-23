@@ -5,7 +5,7 @@ import { splitWords } from "./splitWords.ts";
  * Converts a string to PascalCase.
  *
  * @example
- * ```typescript
+ * ```ts
  * pascalCase('Foo Bar')
  * // => 'FooBar'
  * pascalCase('fooBar')

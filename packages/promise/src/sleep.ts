@@ -2,7 +2,7 @@
  * Sleeps for the given amount of time.
  *
  * @example
- * ```typescript
+ * ```ts
  * await sleep(1000);
  * // => Waits for 1 second.
  * ```

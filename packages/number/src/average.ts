@@ -6,7 +6,7 @@ import { sum } from "./sum.ts";
  * Returns `NaN` if the input array is empty.
  *
  * @example
- * ```typescript
+ * ```ts
  * average([1, 2, 3, 4, 5]) // => 3
  * ```
  *

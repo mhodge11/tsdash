@@ -10,7 +10,7 @@ import { toDecorator } from "./toDecorator.ts";
  * *Requires the [experimentalDecorators](https://www.typescriptlang.org/tsconfig#experimentalDecorators) flag to be set.*
  *
  * @example
- * ```typescript
+ * ```ts
  * class TestClass {
  *   @decThrottle(1000)
  *   testMethod() {

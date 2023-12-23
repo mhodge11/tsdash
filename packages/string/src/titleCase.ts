@@ -5,7 +5,7 @@ import { splitWords } from "./splitWords.ts";
  * Converts a string to Title Case.
  *
  * @example
- * ```typescript
+ * ```ts
  * titleCase('--foo-bar--')
  * // => 'Foo Bar'
  * titleCase('fooBar')
