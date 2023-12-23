@@ -4,7 +4,7 @@ let webcrypto = crypto;
 
 if (typeof webcrypto === "undefined")
 	try {
-		({ webcrypto } = await import("node:crypto"));
+		webcrypto = (await import("node:crypto")) as Crypto;
 		globalThis.crypto = webcrypto;
 	} catch {
 		warnNoCrypto();

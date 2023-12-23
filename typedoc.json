@@ -1,6 +1,5 @@
 {
-	"$schema": "https://typedoc.org/schema.json",
-	"entryPoints": ["packages/*"],
-	"entryPointStrategy": "packages",
-	"includeVersion": false
+  "$schema": "https://typedoc.org/schema.json",
+  "excludeInternal": true,
+  "exclude": ["**/__test__/**/*", "**/node_modules/**/*"]
 }

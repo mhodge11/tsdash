@@ -13,11 +13,11 @@
   "engineStrict": true,
   "scripts": {
     "build": "bin/build-all.sh",
+    "build:docs": "bin/build-docs.sh",
     "check": "biome check ./packages",
     "check:apply": "biome check ./packages --apply",
     "format": "biome format ./packages",
     "format:write": "biome format ./packages --write",
-    "generate-docs": "typedoc --options typedoc.json",
     "lint": "biome lint ./packages",
     "lint:apply": "biome lint ./packages --apply",
     "prepare": "husky install",
@@ -37,6 +37,7 @@
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "@svitejs/changesets-changelog-github-compact": "^1.1.0",
+    "@types/node": "^20.10.5",
     "@vitest/coverage-v8": "^1.1.0",
     "@vitest/ui": "^1.1.0",
     "bun-types": "^1.0.18-1",
@@ -45,6 +46,7 @@
     "lint-staged": "^15.2.0",
     "tsup": "^8.0.1",
     "typedoc": "^0.25.4",
+    "typedoc-plugin-markdown": "^3.17.1",
     "vitest": "^1.1.0"
   },
   "peerDependencies": {

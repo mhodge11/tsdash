@@ -4,14 +4,11 @@
 source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/setup.sh"
 
 run() {
-  cd "$GIT_ROOT"/packages/"$1" || exit
+  cd "$GIT_ROOT" || exit
   info_msg "Building $1"
-  bun run build
+  typedoc --plugin typedoc-plugin-markdown --options typedoc.json --entryPoints "packages/$1/src/index.ts" --out "docs/$1"
 }
 
-run "setup"
-run "types"
-run "validate"
 run "array"
 run "crypto"
 run "function"
@@ -21,7 +18,6 @@ run "number"
 run "object"
 run "promise"
 run "string"
+run "types"
 run "uuid"
-run "core"
-
-bun i
+run "validate"
