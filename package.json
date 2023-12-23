@@ -1,31 +1,50 @@
 {
-  "name": "tsdash-monorepo",
+  "name": "tsdash",
   "private": true,
   "type": "module",
   "packageManager": "bun@1.0.18",
-  "engines": {
-    "bun": ">=1.0.18"
-  },
   "workspaces": [
-    "docs/*",
-    "types/*",
-    "utils/*"
+    "packages/*"
   ],
-  "scripts": {
-    "check": "biome check",
-    "check:apply": "biome check --apply",
-    "lint": "biome lint",
-    "lint:apply": "biome lint --apply",
-    "format": "biome format",
-    "format:write": "biome format --write"
+  "engines": {
+    "node": "^18.17.1",
+    "yarn": "^1.22.19"
   },
+  "engineStrict": true,
+  "scripts": {
+    "build": "bin/build-all.sh",
+    "check": "biome check ./packages",
+    "check:apply": "biome check ./packages --apply",
+    "format": "biome format ./packages",
+    "format:write": "biome format ./packages --write",
+    "generate-docs": "typedoc --options typedoc.json",
+    "lint": "biome lint ./packages",
+    "lint:apply": "biome lint ./packages --apply",
+    "prepare": "husky install",
+    "test": "bin/test-all.sh",
+    "test:dev": "vitest --ui"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "biome check . --apply",
+      "biome format . --write",
+      "biome lint . --apply"
+    ]
+  },
+  
   "devDependencies": {
     "@biomejs/biome": "^1.4.1",
     "@changesets/cli": "^2.27.1",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
     "@svitejs/changesets-changelog-github-compact": "^1.1.0",
     "@vitest/coverage-v8": "^1.1.0",
     "@vitest/ui": "^1.1.0",
     "bun-types": "^1.0.18-1",
+    "cross-env": "^7.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "tsup": "^8.0.1",
     "typedoc": "^0.25.4",
     "vitest": "^1.1.0"
   },

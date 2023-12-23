@@ -1,7 +1,6 @@
 {
-  "$schema": "https://typedoc.org/schema.json",
-  "entryPoints": ["./lib/src/index.ts"],
-  "json": "./docs/src/assets/types.json",
-  "tsconfig": "./lib/tsconfig.json",
-  "excludeNotDocumented": true
+	"$schema": "https://typedoc.org/schema.json",
+	"entryPoints": ["packages/*"],
+	"entryPointStrategy": "packages",
+	"includeVersion": false
 }

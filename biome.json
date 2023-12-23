@@ -1,27 +1,37 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
-  "formatter": {
-    "ignore": ["**/coverage/**/*", "**/dist/**/*", "**/node_modules/**/*"]
-  },
-  "linter": {
-    "rules": {
-      "complexity": {
-        "noBannedTypes": "off"
-      },
-      "nursery": {
-        "noUnusedImports": "error",
-        "useGroupedTypeImport": "error"
-      },
-      "style": {
-        "noParameterAssign": "off",
-        "useShorthandAssign": "error",
-        "useShorthandArrayType": "error"
-      },
-      "suspicious": {
-        "noAssignInExpressions": "off",
-        "noExplicitAny": "off"
-      }
-    },
-    "ignore": ["**/coverage/**/*", "**/dist/**/*", "**/node_modules/**/*"]
-  }
+	"$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
+	"formatter": {
+		"ignore": [
+			"**/coverage/**/*",
+			"**/dist/**/*",
+			"**/docs/**/*",
+			"**/node_modules/**/*"
+		]
+	},
+	"linter": {
+		"rules": {
+			"complexity": {
+				"noBannedTypes": "off"
+			},
+			"nursery": {
+				"noUnusedImports": "error",
+				"useGroupedTypeImport": "error"
+			},
+			"style": {
+				"noParameterAssign": "off",
+				"useShorthandAssign": "error",
+				"useShorthandArrayType": "error"
+			},
+			"suspicious": {
+				"noAssignInExpressions": "off",
+				"noExplicitAny": "off"
+			}
+		},
+		"ignore": [
+			"**/coverage/**/*",
+			"**/dist/**/*",
+			"**/docs/**/*",
+			"**/node_modules/**/*"
+		]
+	}
 }

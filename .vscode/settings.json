@@ -1,10 +1,10 @@
 {
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true,
 
-  "editor.defaultFormatter": "biomejs.biome",
+	"editor.defaultFormatter": "biomejs.biome",
 
-  "explorer.sortOrderLexicographicOptions": "lower",
+	"explorer.sortOrderLexicographicOptions": "lower",
 
-  "vitest.commandLine": "bunx vitest --root package"
+	"vitest.commandLine": "bunx vitest --root package"
 }
