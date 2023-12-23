@@ -31,7 +31,6 @@
       "biome lint . --apply"
     ]
   },
-  
   "devDependencies": {
     "@biomejs/biome": "^1.4.1",
     "@changesets/cli": "^2.27.1",

@@ -23,6 +23,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
+          repository-name: mhodge11/mhodge11.github.io
           branch: gh-pages
           folder: docs
           ssh-key: ${{ secrets.DEPLOY_KEY }}
