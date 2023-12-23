@@ -1,0 +1,27 @@
+name: Publish
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: 1.0.18
+      - name: Install
+        run: bun i
+      - name: Build
+        run: bun run build
+      - name: Build docs
+        run: bun run docs-all
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        with:
+          branch: gh-pages
+          folder: docs
