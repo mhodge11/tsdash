@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: bun run build
       - name: Build docs
-        run: bun run docs-all
+        run: bun run generate-docs
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
