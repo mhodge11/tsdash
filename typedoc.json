@@ -1,5 +1,5 @@
 {
-  "$schema": "https://typedoc.org/schema.json",
-  "excludeInternal": true,
-  "exclude": ["**/__test__/**/*", "**/node_modules/**/*"]
+	"$schema": "https://typedoc.org/schema.json",
+	"excludeInternal": true,
+	"exclude": ["**/__test__/**/*", "**/node_modules/**/*"]
 }
