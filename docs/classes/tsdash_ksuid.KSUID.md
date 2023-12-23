@@ -75,7 +75,7 @@ Creates a new KSUID from an ArrayBufferLike.
 
 #### Defined in
 
-[ksuid.ts:29](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L29)
+[ksuid.ts:29](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L29)
 
 ## Properties
 
@@ -85,7 +85,7 @@ Creates a new KSUID from an ArrayBufferLike.
 
 #### Defined in
 
-[ksuid.ts:22](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L22)
+[ksuid.ts:22](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L22)
 
 ___
 
@@ -97,7 +97,7 @@ A string-encoded maximum value for a KSUID
 
 #### Defined in
 
-[ksuid.ts:18](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L18)
+[ksuid.ts:18](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L18)
 
 ___
 
@@ -109,7 +109,7 @@ A string-encoded minimum value for a KSUID
 
 #### Defined in
 
-[ksuid.ts:20](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L20)
+[ksuid.ts:20](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L20)
 
 ## Accessors
 
@@ -125,7 +125,7 @@ The KSUID tag.
 
 #### Defined in
 
-[ksuid.ts:82](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L82)
+[ksuid.ts:82](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L82)
 
 ___
 
@@ -141,7 +141,7 @@ The date the KSUID was created.
 
 #### Defined in
 
-[ksuid.ts:51](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L51)
+[ksuid.ts:51](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L51)
 
 ___
 
@@ -157,7 +157,7 @@ The byte length of the KSUID.
 
 #### Defined in
 
-[ksuid.ts:44](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L44)
+[ksuid.ts:44](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L44)
 
 ___
 
@@ -173,7 +173,7 @@ The payload of the KSUID.
 
 #### Defined in
 
-[ksuid.ts:65](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L65)
+[ksuid.ts:65](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L65)
 
 ___
 
@@ -189,7 +189,7 @@ A copy of the underlying buffer.
 
 #### Defined in
 
-[ksuid.ts:37](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L37)
+[ksuid.ts:37](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L37)
 
 ___
 
@@ -205,7 +205,7 @@ The KSUID as a string.
 
 #### Defined in
 
-[ksuid.ts:72](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L72)
+[ksuid.ts:72](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L72)
 
 ___
 
@@ -221,7 +221,7 @@ The timestamp of the KSUID in milliseconds since the epoch.
 
 #### Defined in
 
-[ksuid.ts:58](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L58)
+[ksuid.ts:58](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L58)
 
 ## Methods
 
@@ -247,7 +247,7 @@ Compares this KSUID to another.
 
 #### Defined in
 
-[ksuid.ts:94](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L94)
+[ksuid.ts:94](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L94)
 
 ___
 
@@ -271,7 +271,7 @@ Checks if this KSUID is equal to another.
 
 #### Defined in
 
-[ksuid.ts:116](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L116)
+[ksuid.ts:116](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L116)
 
 ___
 
@@ -289,7 +289,7 @@ The KSUID as a string
 
 #### Defined in
 
-[ksuid.ts:125](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L125)
+[ksuid.ts:125](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L125)
 
 ___
 
@@ -307,7 +307,7 @@ The KSUID as a string
 
 #### Defined in
 
-[ksuid.ts:134](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L134)
+[ksuid.ts:134](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L134)
 
 ___
 
@@ -332,7 +332,7 @@ A KSUID
 
 #### Defined in
 
-[ksuid.ts:165](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L165)
+[ksuid.ts:165](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L165)
 
 ___
 
@@ -356,7 +356,7 @@ Checks if a buffer is a valid KSUID.
 
 #### Defined in
 
-[ksuid.ts:187](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L187)
+[ksuid.ts:187](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L187)
 
 ___
 
@@ -380,7 +380,7 @@ A KSUID
 
 #### Defined in
 
-[ksuid.ts:197](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L197)
+[ksuid.ts:197](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L197)
 
 ___
 
@@ -404,7 +404,7 @@ A KSUID
 
 #### Defined in
 
-[ksuid.ts:144](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L144)
+[ksuid.ts:144](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L144)
 
 ___
 
@@ -428,4 +428,4 @@ A KSUID
 
 #### Defined in
 
-[ksuid.ts:154](https://github.com/mhodge11/tsdash/blob/c625984/packages/ksuid/src/ksuid.ts#L154)
+[ksuid.ts:154](https://github.com/mhodge11/tsdash/blob/326c585/packages/ksuid/src/ksuid.ts#L154)

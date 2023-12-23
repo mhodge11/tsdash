@@ -85,7 +85,7 @@ await queue.add([
 
 #### Defined in
 
-[queue.ts:49](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L49)
+[queue.ts:49](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L49)
 
 ## Properties
 
@@ -95,7 +95,7 @@ await queue.add([
 
 #### Defined in
 
-[queue.ts:42](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L42)
+[queue.ts:42](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L42)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[queue.ts:43](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L43)
+[queue.ts:43](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L43)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[queue.ts:39](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L39)
+[queue.ts:39](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L39)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[queue.ts:40](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L40)
+[queue.ts:40](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L40)
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 #### Defined in
 
-[queue.ts:41](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L41)
+[queue.ts:41](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L41)
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 #### Defined in
 
-[queue.ts:38](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L38)
+[queue.ts:38](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L38)
 
 ## Methods
 
@@ -176,7 +176,7 @@ A promise that resolves when the added function(s) finishes.
 
 #### Defined in
 
-[queue.ts:59](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L59)
+[queue.ts:59](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L59)
 
 ▸ **add**\<`P`, `T`\>(`asyncFn`): [`Promise`]( https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise )\<`P`[]\>
 
@@ -199,7 +199,7 @@ A promise that resolves when the added function(s) finishes.
 
 #### Defined in
 
-[queue.ts:60](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L60)
+[queue.ts:60](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L60)
 
 ___
 
@@ -225,7 +225,7 @@ ___
 
 #### Defined in
 
-[queue.ts:110](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L110)
+[queue.ts:110](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L110)
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 #### Defined in
 
-[queue.ts:144](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L144)
+[queue.ts:144](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L144)
 
 ___
 
@@ -255,7 +255,7 @@ Removes all the tasks from the queue
 
 #### Defined in
 
-[queue.ts:72](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L72)
+[queue.ts:72](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L72)
 
 ___
 
@@ -271,7 +271,7 @@ Returns a shared promise that resolves when the queue is empty and all tasks hav
 
 #### Defined in
 
-[queue.ts:100](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L100)
+[queue.ts:100](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L100)
 
 ___
 
@@ -287,7 +287,7 @@ Return the tasks added to the queue
 
 #### Defined in
 
-[queue.ts:90](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L90)
+[queue.ts:90](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L90)
 
 ___
 
@@ -303,7 +303,7 @@ Returns whether the queue is paused
 
 #### Defined in
 
-[queue.ts:95](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L95)
+[queue.ts:95](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L95)
 
 ___
 
@@ -319,7 +319,7 @@ Pauses the execution of the queue
 
 #### Defined in
 
-[queue.ts:79](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L79)
+[queue.ts:79](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L79)
 
 ___
 
@@ -335,7 +335,7 @@ Resumes the execution of the tasks in the queue
 
 #### Defined in
 
-[queue.ts:84](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L84)
+[queue.ts:84](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L84)
 
 ___
 
@@ -349,4 +349,4 @@ ___
 
 #### Defined in
 
-[queue.ts:119](https://github.com/mhodge11/tsdash/blob/c625984/packages/promise/src/queue.ts#L119)
+[queue.ts:119](https://github.com/mhodge11/tsdash/blob/326c585/packages/promise/src/queue.ts#L119)
