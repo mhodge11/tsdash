@@ -1,3 +1,5 @@
+import { crypto } from "@tsdash/internal";
+
 /**
  * A KSUID is a unique identifier that is sortable by the time it was created.
  * It is composed of a timestamp and a payload.

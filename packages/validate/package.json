@@ -1,17 +1,17 @@
 {
   "name": "@tsdash/validate",
   "version": "0.0.1",
-  "description": "A TypeScript utility library for validations",
+  "description": "A TypeScript utility library for simple validations",
   "type": "module",
   "engines": {
-    "node": "^18.17.1",
-    "yarn": "^1.22.19"
+    "node": ">=18.19.0",
+    "pnpm": ">=8.12.1"
   },
   "engineStrict": true,
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
-    "prepublishOnly": "bun run test && bun run build && cp '../README.md' './README.md' && cp '../LICENSE' './LICENSE'",
+    "prepublishOnly": "pnpm run test && pnpm run build && cp '../README.md' './README.md' && cp '../LICENSE' './LICENSE'",
     "postpublish": "rm './README.md' && rm './LICENSE'",
     "test": "vitest run --coverage",
     "test:dev": "vitest --ui"

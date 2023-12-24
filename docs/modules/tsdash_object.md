@@ -48,7 +48,7 @@ flatKeys(obj);
 
 #### Defined in
 
-[flatKeys.ts:19](https://github.com/mhodge11/tsdash/blob/326c585/packages/object/src/flatKeys.ts#L19)
+[flatKeys.ts:19](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/object/src/flatKeys.ts#L19)
 
 ___
 
@@ -95,7 +95,7 @@ merge({ a: 1 }, { a: "Yes" })
 
 #### Defined in
 
-[merge.ts:28](https://github.com/mhodge11/tsdash/blob/326c585/packages/object/src/merge.ts#L28)
+[merge.ts:28](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/object/src/merge.ts#L28)
 
 ___
 
@@ -135,7 +135,7 @@ omit(obj, ['a', 'b']);
 
 #### Defined in
 
-[omit.ts:22](https://github.com/mhodge11/tsdash/blob/326c585/packages/object/src/omit.ts#L22)
+[omit.ts:22](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/object/src/omit.ts#L22)
 
 ___
 
@@ -176,7 +176,7 @@ pick(object, ['a', 'c'])
 
 #### Defined in
 
-[pick.ts:20](https://github.com/mhodge11/tsdash/blob/326c585/packages/object/src/pick.ts#L20)
+[pick.ts:20](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/object/src/pick.ts#L20)
 
 ___
 
@@ -234,4 +234,4 @@ If the path is invalid
 
 #### Defined in
 
-[set.ts:36](https://github.com/mhodge11/tsdash/blob/326c585/packages/object/src/set.ts#L36)
+[set.ts:36](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/object/src/set.ts#L36)

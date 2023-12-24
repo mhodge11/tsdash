@@ -3,6 +3,12 @@
 	"entryPointStrategy": "packages",
 	"includeVersion": false,
 	"plugin": ["typedoc-plugin-markdown", "typedoc-plugin-mdn-links"],
+	"exclude": [
+		"**/test/**/*",
+		"**/node_modules/**/*",
+		"**/coverage/**/*",
+		"**/internal/**/*"
+	],
 	"out": "./docs",
 	"excludeReferences": true,
 	"logLevel": "Verbose"

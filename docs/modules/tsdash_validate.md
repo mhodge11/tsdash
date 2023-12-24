@@ -38,7 +38,7 @@ obj = [1, 2, 3];
 
 #### Defined in
 
-[types/PlainObject.ts:17](https://github.com/mhodge11/tsdash/blob/326c585/packages/validate/src/types/PlainObject.ts#L17)
+[types/PlainObject.ts:17](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/validate/src/types/PlainObject.ts#L17)
 
 ## Functions
 
@@ -86,7 +86,7 @@ isEmpty({ 'a': 1 })
 
 #### Defined in
 
-[isEmpty.ts:31](https://github.com/mhodge11/tsdash/blob/326c585/packages/validate/src/isEmpty.ts#L31)
+[isEmpty.ts:31](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/validate/src/isEmpty.ts#L31)
 
 ___
 
@@ -127,7 +127,7 @@ object === other;
 
 #### Defined in
 
-[isEqual.ts:28](https://github.com/mhodge11/tsdash/blob/326c585/packages/validate/src/isEqual.ts#L28)
+[isEqual.ts:28](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/validate/src/isEqual.ts#L28)
 
 ___
 
@@ -165,7 +165,7 @@ isPlainObject(new Date()) // => false
 
 #### Defined in
 
-[isPlainObject.ts:23](https://github.com/mhodge11/tsdash/blob/326c585/packages/validate/src/isPlainObject.ts#L23)
+[isPlainObject.ts:23](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/validate/src/isPlainObject.ts#L23)
 
 ___
 
@@ -198,4 +198,4 @@ isUrl('google.com')
 
 #### Defined in
 
-[isUrl.ts:16](https://github.com/mhodge11/tsdash/blob/326c585/packages/validate/src/isUrl.ts#L16)
+[isUrl.ts:16](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/validate/src/isUrl.ts#L16)

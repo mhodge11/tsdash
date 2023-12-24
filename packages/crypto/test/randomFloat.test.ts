@@ -1,16 +1,22 @@
-import { randomFloat } from "../src/index.ts";
+import { cryptoMockHighestValue, cryptoMockLowestValue } from "./_mocks.ts";
 
-import { cryptoMockHighestValue, cryptoMockLowestValue } from "./_mocks.js";
+function runImport() {
+	return import("../src/index.ts");
+}
 
 beforeEach(() => {
-	vi.unstubAllGlobals();
+	vi.doUnmock("@tsdash/internal");
+	vi.resetModules();
 });
 
-test("throw an error if min is greater than max", () => {
+test("throw an error if min is greater than max", async () => {
+	const { randomFloat } = await runImport();
 	expect(() => randomFloat(10, 1)).toThrowError();
 });
 
-test("return a number between min and max, including min and max", () => {
+test("return a number between min and max, including min and max", async () => {
+	const { randomFloat } = await runImport();
+
 	const min = 1;
 	const max = 10;
 
@@ -21,7 +27,9 @@ test("return a number between min and max, including min and max", () => {
 	}
 });
 
-test("return a float", () => {
+test("return a float", async () => {
+	const { randomFloat } = await runImport();
+
 	const min = 1.1;
 	const max = 10.1;
 
@@ -33,21 +41,27 @@ test("return a float", () => {
 	}
 });
 
-test("can return the upper bound", () => {
-	vi.stubGlobal("crypto", cryptoMockHighestValue);
+test("can return the upper bound", async () => {
+	vi.doMock("@tsdash/internal", () => ({ crypto: cryptoMockHighestValue }));
+
+	const { randomFloat } = await runImport();
 
 	expect(randomFloat(0, 1024)).toBe(1024);
 });
 
-test("can return the lower bound", () => {
-	vi.stubGlobal("crypto", cryptoMockLowestValue);
+test("can return the lower bound", async () => {
+	vi.doMock("@tsdash/internal", () => ({ crypto: cryptoMockLowestValue }));
+
+	const { randomFloat } = await runImport();
 
 	expect(randomFloat(0, 1)).toBe(0);
 });
 
 test(
 	"average of 200000 random numbers should be close to the middle",
-	() => {
+	async () => {
+		const { randomFloat } = await runImport();
+
 		const min = 0;
 		const max = 1;
 		const iterations = 200000;

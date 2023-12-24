@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-bun run lint-staged
-bun run build
-bun run test
+pnpm lint-staged
+pnpm run build
+pnpm run test

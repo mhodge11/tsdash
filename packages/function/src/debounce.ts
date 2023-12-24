@@ -34,7 +34,7 @@ export function debounce<T extends GenericFunction<T>>(
 	flush: () => void;
 	pending: () => boolean;
 } {
-	let timeoutId: Timer | undefined;
+	let timeoutId: NodeJS.Timeout | undefined;
 	const debounced = function (this: unknown, ...args: Parameters<T>) {
 		clearTimeout(timeoutId);
 		timeoutId = setTimeout(() => {

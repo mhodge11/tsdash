@@ -111,7 +111,6 @@ test("throws if called without valid buffer", () => {
 	expect(() => new KSUID()).toThrowError(TypeError);
 	// @ts-expect-error Testing invalid input
 	expect(() => new KSUID("foo")).toThrowError(TypeError);
-	// @ts-expect-error Testing invalid input
 	expect(() => new KSUID(Buffer.from("foo"))).toThrowError(TypeError);
 });
 

@@ -1,5 +1,3 @@
-import "@tsdash/setup";
-
 export * from "./hash.ts";
 export * from "./randomElement.ts";
 export * from "./randomFloat.ts";

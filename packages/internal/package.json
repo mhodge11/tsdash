@@ -1,19 +1,20 @@
 {
-  "name": "@tsdash/setup",
+  "name": "@tsdash/internal",
+  "private": true,
   "version": "0.0.1",
-  "description": "Setup functions for splitting esm and cjs",
+  "description": "Internal functions for splitting esm and cjs",
   "type": "module",
   "engines": {
-    "node": "^18.17.1",
-    "yarn": "^1.22.19"
+    "node": ">=18.19.0",
+    "pnpm": ">=8.12.1"
   },
   "engineStrict": true,
   "sideEffects": false,
   "scripts": {
     "build": "tsup",
-    "prepublishOnly": "bun run test && bun run build && cp '../README.md' './README.md' && cp '../LICENSE' './LICENSE'",
+    "prepublishOnly": "pnpm run test && pnpm run build && cp '../README.md' './README.md' && cp '../LICENSE' './LICENSE'",
     "postpublish": "rm './README.md' && rm './LICENSE'",
-    "test": "vitest run --coverage",
+    "test": "cross-env NODE_OPTIONS='--experimental-global-webcrypto' vitest run --coverage",
     "test:dev": "vitest --ui"
   },
   "homepage": "https://tsdash.io",
@@ -24,7 +25,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mhodge11/tsdash.git",
-    "directory": "packages/setup"
+    "directory": "packages/internal"
   },
   "keywords": [
     "lodash",
@@ -37,9 +38,6 @@
     "esm",
     "typescript"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "browserslist": [
     ">2% and not dead"
   ],
@@ -59,7 +57,8 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "@tsdash/types": "workspace:*"
+  "devDependencies": {
+    "@types/mock-require": "^2.0.3",
+    "mock-require": "^3.0.3"
   }
 }

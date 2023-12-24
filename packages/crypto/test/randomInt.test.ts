@@ -1,12 +1,17 @@
-import { randomInt } from "../src/index.ts";
+import { cryptoMockHighestValue, cryptoMockLowestValue } from "./_mocks.ts";
 
-import { cryptoMockHighestValue, cryptoMockLowestValue } from "./_mocks.js";
+function runImport() {
+	return import("../src/index.ts");
+}
 
 beforeEach(() => {
-	vi.unstubAllGlobals();
+	vi.doUnmock("@tsdash/internal");
+	vi.resetModules();
 });
 
-test("return a number between min and max, including min and max", () => {
+test("return a number between min and max, including min and max", async () => {
+	const { randomInt } = await runImport();
+
 	const min = 1;
 	const max = 10;
 
@@ -14,15 +19,19 @@ test("return a number between min and max, including min and max", () => {
 	expect(randomInt(min, max)).toBeLessThanOrEqual(max);
 });
 
-test("can return the upper bound", () => {
-	vi.stubGlobal("crypto", cryptoMockHighestValue);
+test("can return the upper bound", async () => {
+	vi.doMock("@tsdash/internal", () => ({ crypto: cryptoMockHighestValue }));
+
+	const { randomInt } = await runImport();
 
 	const result = randomInt(0, 255);
 	expect(result).toBe(255);
 });
 
-test("can return the lower bound", () => {
-	vi.stubGlobal("crypto", cryptoMockLowestValue);
+test("can return the lower bound", async () => {
+	vi.doMock("@tsdash/internal", () => ({ crypto: cryptoMockLowestValue }));
+
+	const { randomInt } = await runImport();
 
 	const result = randomInt(0, 255);
 	expect(result).toBe(0);
@@ -30,7 +39,9 @@ test("can return the lower bound", () => {
 
 test(
 	"should return every number in between",
-	() => {
+	async () => {
+		const { randomInt } = await runImport();
+
 		const min = 1;
 		const max = 5;
 		const numbers = new Set<number>();
@@ -47,7 +58,9 @@ test(
 
 test(
 	"return a different number each time",
-	() => {
+	async () => {
+		const { randomInt } = await runImport();
+
 		const min = 1;
 		const max = 20;
 
@@ -56,13 +69,16 @@ test(
 	{ retry: 3 },
 );
 
-test("throw an error if min is greater than max", () => {
+test("throw an error if min is greater than max", async () => {
+	const { randomInt } = await runImport();
 	expect(() => randomInt(10, 1)).toThrowError();
 });
 
 test(
 	"average of 1000000 random numbers should be close to the middle",
-	() => {
+	async () => {
+		const { randomInt } = await runImport();
+
 		const min = 0;
 		const max = 10;
 		const iterations = 10000;
@@ -80,10 +96,14 @@ test(
 	{ retry: 3 },
 );
 
-test("throw an error if min is not an integer", () => {
+test("throw an error if min is not an integer", async () => {
+	const { randomInt } = await runImport();
+
 	expect(() => randomInt(1.1, 10)).toThrowError();
 });
 
-test("throw an error if max is not an integer", () => {
+test("throw an error if max is not an integer", async () => {
+	const { randomInt } = await runImport();
+
 	expect(() => randomInt(1, 10.1)).toThrowError();
 });

@@ -55,7 +55,7 @@
 
 #### Defined in
 
-[types/CompareFunction.ts:3](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/types/CompareFunction.ts#L3)
+[types/CompareFunction.ts:3](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/types/CompareFunction.ts#L3)
 
 ## Functions
 
@@ -96,7 +96,7 @@ chunk(['a', 'b', 'c', 'd'], 3)
 
 #### Defined in
 
-[chunk.ts:19](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/chunk.ts#L19)
+[chunk.ts:19](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/chunk.ts#L19)
 
 ___
 
@@ -144,7 +144,7 @@ count(users, value => value.age);
 
 #### Defined in
 
-[count.ts:26](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/count.ts#L26)
+[count.ts:26](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/count.ts#L26)
 
 ___
 
@@ -195,7 +195,7 @@ difference(arr1, arr2, (a, b) => a.id === b.id)
 
 #### Defined in
 
-[difference.ts:36](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/difference.ts#L36)
+[difference.ts:36](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/difference.ts#L36)
 
 ▸ **difference**\<`T`\>(`...arraysOrCompareFn`): `T`[``0``]
 
@@ -217,7 +217,7 @@ difference(arr1, arr2, (a, b) => a.id === b.id)
 
 #### Defined in
 
-[difference.ts:39](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/difference.ts#L39)
+[difference.ts:39](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/difference.ts#L39)
 
 ___
 
@@ -262,7 +262,7 @@ dropRightWhile(users, user => user.active)
 
 #### Defined in
 
-[dropRightWhile.ts:23](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/dropRightWhile.ts#L23)
+[dropRightWhile.ts:23](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/dropRightWhile.ts#L23)
 
 ___
 
@@ -307,7 +307,7 @@ dropWhile(users, user => user.active)
 
 #### Defined in
 
-[dropWhile.ts:23](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/dropWhile.ts#L23)
+[dropWhile.ts:23](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/dropWhile.ts#L23)
 
 ___
 
@@ -338,7 +338,7 @@ Returns the flattened array
 
 #### Defined in
 
-[flat.ts:10](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/flat.ts#L10)
+[flat.ts:10](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/flat.ts#L10)
 
 ___
 
@@ -380,7 +380,7 @@ group([6.1, 4.2, 6.3], value => value > 5 ? '>5' : '<=5')
 
 #### Defined in
 
-[group.ts:19](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/group.ts#L19)
+[group.ts:19](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/group.ts#L19)
 
 ___
 
@@ -433,7 +433,7 @@ intersection(arr1, arr2, (a, b) => a.id === b.id)
 
 #### Defined in
 
-[intersection.ts:39](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/intersection.ts#L39)
+[intersection.ts:39](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/intersection.ts#L39)
 
 ▸ **intersection**\<`T`\>(`...arraysOrCompareFn`): `T`[``0``]
 
@@ -455,7 +455,7 @@ intersection(arr1, arr2, (a, b) => a.id === b.id)
 
 #### Defined in
 
-[intersection.ts:42](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/intersection.ts#L42)
+[intersection.ts:42](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/intersection.ts#L42)
 
 ___
 
@@ -498,7 +498,7 @@ If index is out of bounds
 
 #### Defined in
 
-[move.ts:18](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/move.ts#L18)
+[move.ts:18](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/move.ts#L18)
 
 ___
 
@@ -546,7 +546,7 @@ If range is negative or step is 0
 
 #### Defined in
 
-[range.ts:28](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/range.ts#L28)
+[range.ts:28](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/range.ts#L28)
 
 ___
 
@@ -583,7 +583,7 @@ shuffle([1, 2, 3, 4])
 
 #### Defined in
 
-[shuffle.ts:15](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/shuffle.ts#L15)
+[shuffle.ts:15](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/shuffle.ts#L15)
 
 ___
 
@@ -630,7 +630,7 @@ sort(array,
 
 #### Defined in
 
-[sort.ts:27](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/sort.ts#L27)
+[sort.ts:27](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/sort.ts#L27)
 
 ___
 
@@ -675,7 +675,7 @@ takeRightWhile(users, user => user.active)
 
 #### Defined in
 
-[takeRightWhile.ts:23](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/takeRightWhile.ts#L23)
+[takeRightWhile.ts:23](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/takeRightWhile.ts#L23)
 
 ___
 
@@ -720,7 +720,7 @@ takeWhile(users, user => user.active)
 
 #### Defined in
 
-[takeWhile.ts:23](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/takeWhile.ts#L23)
+[takeWhile.ts:23](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/takeWhile.ts#L23)
 
 ___
 
@@ -774,4 +774,4 @@ unique(users, (a, b) => a.name === b.name)
 
 #### Defined in
 
-[unique.ts:32](https://github.com/mhodge11/tsdash/blob/326c585/packages/array/src/unique.ts#L32)
+[unique.ts:32](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/array/src/unique.ts#L32)

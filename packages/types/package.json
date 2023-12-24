@@ -4,14 +4,14 @@
   "description": "A TypeScript higher order types library",
   "type": "module",
   "engines": {
-    "node": "^18.17.1",
-    "yarn": "^1.22.19"
+    "node": ">=18.19.0",
+    "pnpm": ">=8.12.1"
   },
   "engineStrict": true,
   "sideEffects": false,
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --minify && tsc src/index.ts --declaration --emitDeclarationOnly --outDir dist",
-    "prepublishOnly": "bun run test && bun run build && cp '../README.md' './README.md' && cp '../LICENSE' './LICENSE'",
+    "prepublishOnly": "pnpm run test && pnpm run build && cp '../README.md' './README.md' && cp '../LICENSE' './LICENSE'",
     "postpublish": "rm './README.md' && rm './LICENSE'",
     "test": "vitest run",
     "test:dev": "vitest --ui"

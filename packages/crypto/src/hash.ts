@@ -1,5 +1,7 @@
 import type { Jsonifiable } from "@tsdash/types";
 
+import { crypto } from "@tsdash/internal";
+
 /**
  * Generates a hash of the given data using the specified algorithm.
  *

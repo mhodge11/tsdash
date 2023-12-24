@@ -70,7 +70,7 @@ function foo<
 
 #### Defined in
 
-[types/GenericFunction.ts:27](https://github.com/mhodge11/tsdash/blob/326c585/packages/function/src/types/GenericFunction.ts#L27)
+[types/GenericFunction.ts:27](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/function/src/types/GenericFunction.ts#L27)
 
 ## Functions
 
@@ -119,7 +119,7 @@ debouncedSayHello("Jane");
 
 #### Defined in
 
-[debounce.ts:29](https://github.com/mhodge11/tsdash/blob/326c585/packages/function/src/debounce.ts#L29)
+[debounce.ts:29](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/function/src/debounce.ts#L29)
 
 ___
 
@@ -151,7 +151,7 @@ An array of matches
 
 #### Defined in
 
-[fuzzySearch.ts:14](https://github.com/mhodge11/tsdash/blob/326c585/packages/function/src/fuzzySearch.ts#L14)
+[fuzzySearch.ts:14](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/function/src/fuzzySearch.ts#L14)
 
 ___
 
@@ -201,7 +201,7 @@ limitAddCount() // => 2
 
 #### Defined in
 
-[maxCalls.ts:30](https://github.com/mhodge11/tsdash/blob/326c585/packages/function/src/maxCalls.ts#L30)
+[maxCalls.ts:30](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/function/src/maxCalls.ts#L30)
 
 ___
 
@@ -270,7 +270,7 @@ const defaultResolver = (...args: unknown[]) => JSON.stringify(args)
 
 #### Defined in
 
-[memoize.ts:49](https://github.com/mhodge11/tsdash/blob/326c585/packages/function/src/memoize.ts#L49)
+[memoize.ts:49](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/function/src/memoize.ts#L49)
 
 ___
 
@@ -329,7 +329,7 @@ limitedCaution()
 
 #### Defined in
 
-[minCalls.ts:26](https://github.com/mhodge11/tsdash/blob/326c585/packages/function/src/minCalls.ts#L26)
+[minCalls.ts:26](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/function/src/minCalls.ts#L26)
 
 ___
 
@@ -356,7 +356,7 @@ An array of matches
 
 #### Defined in
 
-[fuzzySearch.ts:72](https://github.com/mhodge11/tsdash/blob/326c585/packages/function/src/fuzzySearch.ts#L72)
+[fuzzySearch.ts:72](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/function/src/fuzzySearch.ts#L72)
 
 ___
 
@@ -400,7 +400,7 @@ throttled();
 
 #### Defined in
 
-[throttle.ts:24](https://github.com/mhodge11/tsdash/blob/326c585/packages/function/src/throttle.ts#L24)
+[throttle.ts:24](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/function/src/throttle.ts#L24)
 
 ___
 
@@ -443,4 +443,4 @@ times(() => 0, 4)
 
 #### Defined in
 
-[times.ts:21](https://github.com/mhodge11/tsdash/blob/326c585/packages/function/src/times.ts#L21)
+[times.ts:21](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/function/src/times.ts#L21)

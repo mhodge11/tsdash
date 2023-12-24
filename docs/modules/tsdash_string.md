@@ -55,7 +55,7 @@ camelCase('__FOO_BAR__')
 
 #### Defined in
 
-[camelCase.ts:21](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/camelCase.ts#L21)
+[camelCase.ts:21](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/camelCase.ts#L21)
 
 ___
 
@@ -86,7 +86,7 @@ capitalize('FRED')
 
 #### Defined in
 
-[capitalize.ts:14](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/capitalize.ts#L14)
+[capitalize.ts:14](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/capitalize.ts#L14)
 
 ___
 
@@ -121,7 +121,7 @@ deburr('déjà vu')
 
 #### Defined in
 
-[deburr.ts:18](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/deburr.ts#L18)
+[deburr.ts:18](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/deburr.ts#L18)
 
 ___
 
@@ -152,7 +152,7 @@ escapeHtml('fred, barney, & pebbles')
 
 #### Defined in
 
-[escapeHtml.ts:14](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/escapeHtml.ts#L14)
+[escapeHtml.ts:14](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/escapeHtml.ts#L14)
 
 ___
 
@@ -184,7 +184,7 @@ escapeRegExp('[moderndash](https://moderndash.io/)')
 
 #### Defined in
 
-[escapeRegExp.ts:15](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/escapeRegExp.ts#L15)
+[escapeRegExp.ts:15](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/escapeRegExp.ts#L15)
 
 ___
 
@@ -219,7 +219,7 @@ kebabCase('__FOO_BAR__')
 
 #### Defined in
 
-[kebabCase.ts:21](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/kebabCase.ts#L21)
+[kebabCase.ts:21](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/kebabCase.ts#L21)
 
 ___
 
@@ -254,7 +254,7 @@ pascalCase('__FOO_BAR__')
 
 #### Defined in
 
-[pascalCase.ts:21](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/pascalCase.ts#L21)
+[pascalCase.ts:21](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/pascalCase.ts#L21)
 
 ___
 
@@ -287,7 +287,7 @@ replaceLast("Foo Bar Bar", "Bar", "Boo");
 
 #### Defined in
 
-[replaceLast.ts:16](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/replaceLast.ts#L16)
+[replaceLast.ts:16](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/replaceLast.ts#L16)
 
 ___
 
@@ -324,7 +324,7 @@ snakeCase('foo2bar')
 
 #### Defined in
 
-[snakeCase.ts:23](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/snakeCase.ts#L23)
+[snakeCase.ts:23](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/snakeCase.ts#L23)
 
 ___
 
@@ -361,7 +361,7 @@ splitWords('hello_world-123')
 
 #### Defined in
 
-[splitWords.ts:20](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/splitWords.ts#L20)
+[splitWords.ts:20](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/splitWords.ts#L20)
 
 ___
 
@@ -398,7 +398,7 @@ titleCase('HélloWorld')
 
 #### Defined in
 
-[titleCase.ts:23](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/titleCase.ts#L23)
+[titleCase.ts:23](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/titleCase.ts#L23)
 
 ___
 
@@ -432,7 +432,7 @@ trim('!!abc_!', '_!') // => 'abc'
 
 #### Defined in
 
-[trim.ts:16](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/trim.ts#L16)
+[trim.ts:16](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/trim.ts#L16)
 
 ___
 
@@ -466,7 +466,7 @@ trimEnd('abc_!!_', '_!') // => 'abc'
 
 #### Defined in
 
-[trimEnd.ts:17](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/trimEnd.ts#L17)
+[trimEnd.ts:17](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/trimEnd.ts#L17)
 
 ___
 
@@ -500,7 +500,7 @@ trimStart('_!!_abc', '_!') // => 'abc'
 
 #### Defined in
 
-[trimStart.ts:17](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/trimStart.ts#L17)
+[trimStart.ts:17](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/trimStart.ts#L17)
 
 ___
 
@@ -532,4 +532,4 @@ unescapeHtml('fred, barney, &amp; pebbles')
 
 #### Defined in
 
-[unescapeHtml.ts:15](https://github.com/mhodge11/tsdash/blob/326c585/packages/string/src/unescapeHtml.ts#L15)
+[unescapeHtml.ts:15](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/string/src/unescapeHtml.ts#L15)

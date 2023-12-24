@@ -9,5 +9,8 @@
 	"vitest.commandLine": "bunx vitest --root package",
 	"[markdown]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[properties]": {
+		"editor.defaultFormatter": "foxundermoon.shell-format"
 	}
 }

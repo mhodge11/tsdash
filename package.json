@@ -2,17 +2,14 @@
   "name": "tsdash",
   "private": true,
   "type": "module",
-  "packageManager": "bun@1.0.18",
-  "workspaces": [
-    "packages/*"
-  ],
+  "packageManager": "pnpm@8.12.1",
   "engines": {
-    "node": "^18.17.1",
-    "yarn": "^1.22.19"
+    "node": ">=18.19.0",
+    "pnpm": ">=8.12.1"
   },
   "engineStrict": true,
   "scripts": {
-    "build": "bin/build-all.sh",
+    "build": "lerna run build",
     "build:docs": "typedoc",
     "check": "biome check ./packages",
     "check:apply": "biome check ./packages --apply",
@@ -21,8 +18,9 @@
     "lint": "biome lint ./packages",
     "lint:apply": "biome lint ./packages --apply",
     "prepare": "husky install",
-    "test": "bin/test-all.sh",
-    "test:dev": "vitest --ui"
+    "test": "lerna run test",
+    "test:dev": "vitest --ui",
+    "version": "lerna version --no-private"
   },
   "lint-staged": {
     "*.{js,ts}": [
@@ -40,17 +38,15 @@
     "@types/node": "^20.10.5",
     "@vitest/coverage-v8": "^1.1.0",
     "@vitest/ui": "^1.1.0",
-    "bun-types": "^1.0.18-1",
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
+    "lerna": "^8.0.1",
     "lint-staged": "^15.2.0",
     "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
     "typedoc": "^0.25.4",
     "typedoc-plugin-markdown": "^3.17.1",
     "typedoc-plugin-mdn-links": "^3.1.8",
     "vitest": "^1.1.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5.3.3"
   }
 }

@@ -1,3 +1,5 @@
+import { crypto } from "@tsdash/internal";
+
 /**
  * Generates a random integer between two given numbers, including those numbers.
  *
