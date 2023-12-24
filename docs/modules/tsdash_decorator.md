@@ -67,7 +67,7 @@ instance.testMethod("World");
 
 #### Defined in
 
-[decorator/src/decDebounce.ts:30](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/decorator/src/decDebounce.ts#L30)
+[decorator/src/decDebounce.ts:30](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/decorator/src/decDebounce.ts#L30)
 
 ___
 
@@ -126,7 +126,7 @@ instance.testMethod(); // => 2
 
 #### Defined in
 
-[decorator/src/decMaxCalls.ts:33](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/decorator/src/decMaxCalls.ts#L33)
+[decorator/src/decMaxCalls.ts:33](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/decorator/src/decMaxCalls.ts#L33)
 
 ___
 
@@ -189,7 +189,7 @@ instance.testMethod(1, 2); // => 3 (cache miss)
 
 #### Defined in
 
-[decorator/src/decMemoize.ts:39](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/decorator/src/decMemoize.ts#L39)
+[decorator/src/decMemoize.ts:39](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/decorator/src/decMemoize.ts#L39)
 
 ___
 
@@ -245,7 +245,7 @@ instance.testMethod(); // => 1
 
 #### Defined in
 
-[decorator/src/decMinCalls.ts:30](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/decorator/src/decMinCalls.ts#L30)
+[decorator/src/decMinCalls.ts:30](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/decorator/src/decMinCalls.ts#L30)
 
 ___
 
@@ -300,7 +300,7 @@ instance.testMethod(); // nothing happens
 
 #### Defined in
 
-[decorator/src/decThrottle.ts:29](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/decorator/src/decThrottle.ts#L29)
+[decorator/src/decThrottle.ts:29](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/decorator/src/decThrottle.ts#L29)
 
 ___
 
@@ -380,4 +380,4 @@ instance.testMethod();
 
 #### Defined in
 
-[decorator/src/toDecorator.ts:34](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/decorator/src/toDecorator.ts#L34)
+[decorator/src/toDecorator.ts:34](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/decorator/src/toDecorator.ts#L34)

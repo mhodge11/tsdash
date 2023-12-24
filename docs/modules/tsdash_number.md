@@ -41,7 +41,7 @@ average([1, 2, 3, 4, 5]) // => 3
 
 #### Defined in
 
-[average.ts:17](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/number/src/average.ts#L17)
+[average.ts:17](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/number/src/average.ts#L17)
 
 ___
 
@@ -74,7 +74,7 @@ median([1, 2, 3, 4, 5, 6]) // => 3.5
 
 #### Defined in
 
-[median.ts:16](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/number/src/median.ts#L16)
+[median.ts:16](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/number/src/median.ts#L16)
 
 ___
 
@@ -107,7 +107,7 @@ round(1234.56); // => 1234.56
 
 #### Defined in
 
-[round.ts:16](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/number/src/round.ts#L16)
+[round.ts:16](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/number/src/round.ts#L16)
 
 ___
 
@@ -139,7 +139,7 @@ sum([1, 2, 3, 4, 5]) // => 15
 
 #### Defined in
 
-[sum.ts:18](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/number/src/sum.ts#L18)
+[sum.ts:18](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/number/src/sum.ts#L18)
 
 ▸ **sum**\<`T`\>(`numbers`): `Call`\<`Tuples.Sum`, `T`\>
 
@@ -161,4 +161,4 @@ sum([1, 2, 3, 4, 5]) // => 15
 
 #### Defined in
 
-[sum.ts:19](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/number/src/sum.ts#L19)
+[sum.ts:19](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/number/src/sum.ts#L19)

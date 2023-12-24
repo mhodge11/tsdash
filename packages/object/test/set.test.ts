@@ -26,7 +26,7 @@ test("set a value with array path", () => {
 	expect(obj).toEqual({ a: [{ c: 3 }] });
 });
 
-// TODO Waiting for hotscript fix
+// TODO Waiting for fix
 // test("recognize number key", () => {
 //     const obj = { a: 1 };
 //     const updatedObj = set(obj, "a[0]", 4);

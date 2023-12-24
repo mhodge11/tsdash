@@ -55,7 +55,7 @@ If the specified algorithm is not supported by the Web Crypto API
 
 #### Defined in
 
-[hash.ts:29](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/crypto/src/hash.ts#L29)
+[hash.ts:29](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/crypto/src/hash.ts#L29)
 
 ___
 
@@ -101,7 +101,7 @@ randomElement([1, 2, 3, 4], 2)
 
 #### Defined in
 
-[randomElement.ts:27](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/crypto/src/randomElement.ts#L27)
+[randomElement.ts:27](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/crypto/src/randomElement.ts#L27)
 
 ▸ **randomElement**\<`T`\>(`array`, `multi`): `T`[]
 
@@ -124,7 +124,7 @@ randomElement([1, 2, 3, 4], 2)
 
 #### Defined in
 
-[randomElement.ts:28](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/crypto/src/randomElement.ts#L28)
+[randomElement.ts:28](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/crypto/src/randomElement.ts#L28)
 
 ___
 
@@ -162,7 +162,7 @@ If `min` is greater than or equal to `max`
 
 #### Defined in
 
-[randomFloat.ts:20](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/crypto/src/randomFloat.ts#L20)
+[randomFloat.ts:20](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/crypto/src/randomFloat.ts#L20)
 
 ___
 
@@ -204,7 +204,7 @@ If `min` is greater than or equal to `max`
 
 #### Defined in
 
-[randomInt.ts:21](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/crypto/src/randomInt.ts#L21)
+[randomInt.ts:21](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/crypto/src/randomInt.ts#L21)
 
 ___
 
@@ -242,4 +242,4 @@ randomString(16, 'abc');
 
 #### Defined in
 
-[randomString.ts:23](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/crypto/src/randomString.ts#L23)
+[randomString.ts:23](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/crypto/src/randomString.ts#L23)

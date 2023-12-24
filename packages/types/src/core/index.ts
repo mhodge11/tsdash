@@ -46,9 +46,9 @@ type JsonPrimitive = string | number | boolean | null;
  * Base interface for all functions.
  *
  * @description You need to extend this interface to create a function
- * that can be composed with other HOTScript functions.
+ * that can be composed with other tsdash functions.
  * Usually you will just convert some utility type you already have
- * by wrapping it inside a HOTScript function.
+ * by wrapping it inside a tsdash function.
  *
  * Use `this['args']`, `this['arg0']`, `this['arg1']` etc to access
  * function arguments.
@@ -103,7 +103,7 @@ export type arg2<Constraint = unknown> = arg<2, Constraint>;
 export type arg3<Constraint = unknown> = arg<3, Constraint>;
 
 /**
- * Call a HOTScript function with the given arguments.
+ * Call a tsdash function with the given arguments.
  *
  * @param fn - The function to call.
  * @param args - The arguments to pass to the function.
@@ -119,7 +119,7 @@ export type Apply<fn extends Fn, args extends unknown[]> = (fn & {
 })["return"];
 
 /**
- * Calls a HOTScript function.
+ * Calls a tsdash function.
  *
  * @param fn - The function to call.
  * @param ...args - optional arguments
@@ -256,7 +256,7 @@ type ComposeLeftImpl<fns extends Fn[], args extends any[]> = fns extends [
  * it takes a `Fn`, and a list of pre applied arguments,
  * and returns a new function taking the rest of these arguments.
  *
- * Most functions in HOTScript are already partially applicable (curried).
+ * Most functions in tsdash are already partially applicable (curried).
  *
  * @param fn - The function to partially apply.
  * @param partialArgs - The arguments to partially apply.

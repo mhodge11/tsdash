@@ -32,8 +32,17 @@ To use the entire TypeScript utility library, install `@tsdash/core`.
 
 ```shell
 npm i @tsdash/core
+```
+
+```shell
 yarn add @tsdash/core
+```
+
+```shell
 pnpm i @tsdash/core
+```
+
+```shell
 bun add @tsdash/core
 ```
 
@@ -45,8 +54,17 @@ A TypeScript utility library for arrays.
 
 ```shell
 npm i @tsdash/array
+```
+
+```shell
 yarn add @tsdash/array
+```
+
+```shell
 pnpm i @tsdash/array
+```
+
+```shell
 bun add @tsdash/array
 ```
 
@@ -58,8 +76,17 @@ A TypeScript utility library for crypto.
 
 ```shell
 npm i @tsdash/crypto
+```
+
+```shell
 yarn add @tsdash/crypto
+```
+
+```shell
 pnpm i @tsdash/crypto
+```
+
+```shell
 bun add @tsdash/crypto
 ```
 
@@ -71,8 +98,17 @@ A TypeScript utility library for decorators.
 
 ```shell
 npm i @tsdash/decorator
+```
+
+```shell
 yarn add @tsdash/decorator
+```
+
+```shell
 pnpm i @tsdash/decorator
+```
+
+```shell
 bun add @tsdash/decorator
 ```
 
@@ -82,8 +118,17 @@ A TypeScript utility library for functions.
 
 ```shell
 npm i @tsdash/function
+```
+
+```shell
 yarn add @tsdash/function
+```
+
+```shell
 pnpm i @tsdash/function
+```
+
+```shell
 bun add @tsdash/function
 ```
 
@@ -95,8 +140,17 @@ A TypeScript utility library for generating and parsing KSUIDs.
 
 ```shell
 npm i @tsdash/ksuid
+```
+
+```shell
 yarn add @tsdash/ksuid
+```
+
+```shell
 pnpm i @tsdash/ksuid
+```
+
+```shell
 bun add @tsdash/ksuid
 ```
 
@@ -106,8 +160,17 @@ A TypeScript utility library for numbers.
 
 ```shell
 npm i @tsdash/number
+```
+
+```shell
 yarn add @tsdash/number
+```
+
+```shell
 pnpm i @tsdash/number
+```
+
+```shell
 bun add @tsdash/number
 ```
 
@@ -117,8 +180,17 @@ A TypeScript utility library for objects.
 
 ```shell
 npm i @tsdash/object
+```
+
+```shell
 yarn add @tsdash/object
+```
+
+```shell
 pnpm i @tsdash/object
+```
+
+```shell
 bun add @tsdash/object
 ```
 
@@ -128,8 +200,17 @@ A TypeScript utility library for promises.
 
 ```shell
 npm i @tsdash/promise
+```
+
+```shell
 yarn add @tsdash/promise
+```
+
+```shell
 pnpm i @tsdash/promise
+```
+
+```shell
 bun add @tsdash/promise
 ```
 
@@ -139,8 +220,17 @@ A TypeScript utility library for strings.
 
 ```shell
 npm i @tsdash/string
+```
+
+```shell
 yarn add @tsdash/string
+```
+
+```shell
 pnpm i @tsdash/string
+```
+
+```shell
 bun add @tsdash/string
 ```
 
@@ -150,8 +240,17 @@ A TypeScript higher order types library.
 
 ```shell
 npm i @tsdash/types
+```
+
+```shell
 yarn add @tsdash/types
+```
+
+```shell
 pnpm i @tsdash/types
+```
+
+```shell
 bun add @tsdash/types
 ```
 
@@ -163,8 +262,17 @@ A TypeScript utility library for generating UUIDs.
 
 ```shell
 npm i @tsdash/uuid
+```
+
+```shell
 yarn add @tsdash/uuid
+```
+
+```shell
 pnpm i @tsdash/uuid
+```
+
+```shell
 bun add @tsdash/uuid
 ```
 
@@ -174,7 +282,16 @@ A TypeScript utility library for simple validations.
 
 ```shell
 npm i @tsdash/validate
+```
+
+```shell
 yarn add @tsdash/validate
+```
+
+```shell
 pnpm i @tsdash/validate
+```
+
+```shell
 bun add @tsdash/validate
 ```

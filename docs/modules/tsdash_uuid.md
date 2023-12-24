@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[index.ts:6](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/uuid/src/index.ts#L6)
+[index.ts:6](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/uuid/src/index.ts#L6)
 
 ## Functions
 
@@ -60,7 +60,7 @@ A function that generates a UUID.
 
 #### Defined in
 
-[index.ts:44](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/uuid/src/index.ts#L44)
+[index.ts:44](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/uuid/src/index.ts#L44)
 
 ___
 
@@ -85,7 +85,7 @@ A promise resolving to a function that generates a UUID.
 
 #### Defined in
 
-[index.ts:110](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/uuid/src/index.ts#L110)
+[index.ts:110](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/uuid/src/index.ts#L110)
 
 ___
 
@@ -109,7 +109,7 @@ A UUID.
 
 #### Defined in
 
-[index.ts:86](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/uuid/src/index.ts#L86)
+[index.ts:86](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/uuid/src/index.ts#L86)
 
 ___
 
@@ -133,4 +133,4 @@ A promise resolving to UUID.
 
 #### Defined in
 
-[index.ts:123](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/uuid/src/index.ts#L123)
+[index.ts:123](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/uuid/src/index.ts#L123)

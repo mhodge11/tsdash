@@ -57,7 +57,7 @@ const firstTwo = await races(2, prom1, prom2, prom3);
 
 #### Defined in
 
-[races.ts:21](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/promise/src/races.ts#L21)
+[races.ts:21](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/promise/src/races.ts#L21)
 
 ___
 
@@ -117,7 +117,7 @@ The error of the last attempt if all attempts fail
 
 #### Defined in
 
-[retry.ts:37](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/promise/src/retry.ts#L37)
+[retry.ts:37](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/promise/src/retry.ts#L37)
 
 ___
 
@@ -148,7 +148,7 @@ await sleep(1000);
 
 #### Defined in
 
-[sleep.ts:14](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/promise/src/sleep.ts#L14)
+[sleep.ts:14](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/promise/src/sleep.ts#L14)
 
 ___
 
@@ -198,7 +198,7 @@ An error if the promise does not resolve or reject before timing out
 
 #### Defined in
 
-[timeout.ts:22](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/promise/src/timeout.ts#L22)
+[timeout.ts:22](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/promise/src/timeout.ts#L22)
 
 ___
 
@@ -244,4 +244,4 @@ The error of the promise if it rejects and the error is not an instance of Error
 
 #### Defined in
 
-[tryCatch.ts:21](https://github.com/mhodge11/tsdash/blob/e8b0bb0/packages/promise/src/tryCatch.ts#L21)
+[tryCatch.ts:21](https://github.com/mhodge11/tsdash/blob/a16b6d9/packages/promise/src/tryCatch.ts#L21)
