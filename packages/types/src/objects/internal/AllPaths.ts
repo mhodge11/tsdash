@@ -1,4 +1,4 @@
-import type { Primitive } from "../../internal/Primitive.ts";
+import type { Primitive } from "../../core/index.ts";
 import type { Keys } from "./Keys.ts";
 
 export type AllPaths<T, ParentPath extends string = never> = T extends Primitive

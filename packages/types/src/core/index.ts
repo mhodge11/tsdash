@@ -5,6 +5,26 @@ declare const rawArgs: unique symbol;
 type rawArgs = typeof rawArgs;
 
 /**
+ * a primitive value is a member of one of the following built-in types:
+ * - undefined
+ * - null
+ * - boolean
+ * - string
+ * - number
+ * - bigint
+ * - symbol
+ */
+
+export type Primitive =
+	| string
+	| number
+	| boolean
+	| bigint
+	| null
+	| undefined
+	| symbol;
+
+/**
  * Matches a value that can be losslessly converted to JSON.
  * Can be used to type values that you expect to pass to `JSON.stringify`.
  *

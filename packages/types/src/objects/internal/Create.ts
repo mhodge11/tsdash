@@ -1,5 +1,4 @@
-import type { Apply, Fn } from "../../core/index.ts";
-import type { Primitive } from "../../internal/Primitive.ts";
+import type { Apply, Fn, Primitive } from "../../core/index.ts";
 
 export type Create<
 	pattern,

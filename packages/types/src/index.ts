@@ -11,6 +11,7 @@ import type {
 	PartialApply,
 	Pipe,
 	PipeRight,
+	Primitive,
 	_,
 	arg,
 	arg0,
@@ -53,6 +54,7 @@ export type {
 	PartialApply,
 	Pipe,
 	PipeRight,
+	Primitive,
 	// functions
 	Functions,
 	Functions as F,

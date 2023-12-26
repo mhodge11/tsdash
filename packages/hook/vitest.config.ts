@@ -1,11 +1,12 @@
 /// <reference types="vitest" />
 // Configure Vitest (https://vitest.dev/config/)
 
-import { defineConfig } from "vitest/config";
+import { defineProject } from "vitest/config";
 
-export default defineConfig({
+export default defineProject({
 	test: {
 		globals: true,
+		environment: "jsdom",
 		coverage: {
 			exclude: ["**/dist/**/*.{js,cjs,ts}", "**/test/**/*.ts", "**/types/*.ts"],
 		},

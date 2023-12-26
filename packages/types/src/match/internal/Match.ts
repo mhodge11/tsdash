@@ -1,5 +1,12 @@
-import type { Call, Fn, PartialApply, arg, unset } from "../../core/index.ts";
-import type { Primitive, UnionToIntersection } from "../../internal/index.ts";
+import type {
+	Call,
+	Fn,
+	PartialApply,
+	Primitive,
+	arg,
+	unset,
+} from "../../core/index.ts";
+import type { UnionToIntersection } from "../../internal/index.ts";
 import type { With } from "./With.ts";
 
 /**
