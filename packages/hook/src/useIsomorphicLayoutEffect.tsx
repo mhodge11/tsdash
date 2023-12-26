@@ -1,10 +1,10 @@
+import { isBrowser } from "@tsdash/validate";
 import {
 	type DependencyList,
 	type EffectCallback,
 	useEffect,
 	useLayoutEffect,
 } from "react";
-import { isBrowser } from "@tsdash/validate";
 
 /**
  * Runs a layout effect callback if client side, otherwise runs an effect callback.
